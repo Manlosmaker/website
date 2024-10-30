@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {    background-color: #141414;
+    scroll-behavior: smooth;
+}
+#heroTitle {
+    font-size: 13vw;
+    margin: 6vw 0vw 1vw 0vw;
+}
+
+#heroSubtitle {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0.6vw 3vw 0.5vw 3vw;
+}
+
+
+
+.text {
+    color: #F1F8FF;
+    font-family: "Lato", sans-serif ;
+}
+
+.title {
+    color: #D1D8FF;
+    text-align: center;
+
+}
+
+
+nav {
+    background-color: #291b29;
+    margin: 0.5vw 2vw;
+    border-radius: 2vw;
+    padding: 0.9vw;
+    font-size: 1.1vw;
+}
+
+.navbarListItemATag {
+    text-decoration: none;
+}
+
+
+
+#navbarList {
+
+    justify-content: space-between;
+    list-style-type: none;  
+     
+}
+
+
+@keyframes rainbow {
+    0%   {color: #AAE6EE;}
+    25%  {color: yellow;}
+    50%  {color: red;}
+    75% {color: green;}
+    100% {color: #AAE6EE;}
+}
+
+.navbarListText {
+    color: #AAE6EE;
+}
+
+.navbarListText:hover {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+}
+
+.flexBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+h2 {
+    margin-top: 13vw;
+    font-size: 8vw;
+}
+
+#aboutMeContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+    column-gap: 1vw;
+    row-gap: 1vw;
+
+
+
+}
+
+.aboutMeContainerDivs {
+    background-color: #291b29;
+    padding: 1vw;
+    border-radius: 2vw;
+    position: absolute;
+    width: 40%;
+}
+
+
+#aboutMeContainer {
+    height: 20vw;
+    position: relative; /* Important to contain the draggable div */
+}
+
+
+
+.aboutMeContainerDivText {
+    font-size: 1vw;
+}
+
+.aboutMeContainerDivTitle {
+    font-size: 2vw;
+}
+
+#aboutMeExplanation {
+    text-align: center;
+    font-size: 2vw;
+}
+
